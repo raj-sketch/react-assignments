@@ -39,6 +39,7 @@ console.log(typeof num_string);
 
 //arrays
 let fruits = ["apple", "banana", "pineapple", "grapes"];
+fruits  = '0'
 
 let num_array = [56, 45,76,32,89,65,43,32,1];
 console.log(num_array);
