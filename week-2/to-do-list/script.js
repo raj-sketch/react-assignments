@@ -33,6 +33,31 @@ add_category_button.addEventListener('click', function(){
 
     //adding task
     task_button.addEventListener('click',function(){
+        task_div = createElement('div')
+        task_div.id = 'task'
+        new_category.appendChild(task_div)
+
+        task_input = createElement('input')
+        task_input.id = 'inputtask'
+        task_input.textContent = 'enter your task here'
+        task_div.appendChild(task_input)
+
+        const confirm_button = createElement('button')
+        confirm_button.id = 'iconbutton'
+        confirm_button.textContent = '&#10004;'
+        task_div.appendChild(confirm_button)
+
+        const wrong_button = createElement('button')
+        wrong_button.id = 'iconbutton'
+        wrong_button.textContent = '&#10006;'
+        task_div.appendChild(wrong_button)
+
+
+
+
+
+
+        ()
         
 
     })
